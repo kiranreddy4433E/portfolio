@@ -1,0 +1,349 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: cadetblue;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+}
+.logo{
+    position: relative;
+    font-size: 40px;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list .child {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+.child{
+    margin-right: 20px;
+    
+}
+.list .child .link{
+    text-decoration: none;
+    color: black;
+}
+.list .child .link:hover{
+    color: red;
+}
+.list .child .link:active{
+    color: green;
+}
+.navbar{
+    text-align: right;
+}
+
+/* main section */
+
+.photo{
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: 5px dashed cadetblue;
+    margin: 170px 150px ;
+    display: inline-block;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    /* margin: 75px 0 0 75px; */
+}
+.img:hover{
+    box-shadow: 6px;
+
+}
+.block{
+    display: inline-block;
+}
+.inr1{
+    font-size: 40px;
+    /* word-spacing: 10px; */
+    letter-spacing: 2px;
+}
+.inr3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+.inr4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300px;
+}
+/* buttons */
+.btn1{
+    margin: 80px;
+    width: 70px;
+    height: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px ;
+    background-color: cadetblue;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn2{
+    margin: 80px;
+    margin-left: 250px;
+    width: 70px;
+    height: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px ;
+    background-color: cadetblue;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: red; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up slightly on hover */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.btn:active {
+    background-color: green; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up slightly on hover */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.logo1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.social{
+    text-align: center;
+}
+.icon{
+    font-size: 50px;
+    margin: 10px;
+}
+/* up button */
+.goup{
+    text-align: end;
+    margin: 0 5% 0 90%;
+    display: inline-block;
+    position: sticky;
+}
+.btn3{ 
+    width: 70px;
+    height: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px ;
+    background-color: cadetblue;
+    color: white;
+}
+
+/* about me */
+.two{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo2{
+    justify-content: center;
+    background-color: azure;
+    margin: auto;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    /* outline: 2px  green; */
+    border-radius: 50%;
+    
+}
+
+.content1{
+    text-align: center;
+}
+.btn3{
+    /* margin: 80px; */
+    width: 70px;
+    height: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px ;
+    background-color: cadetblue;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+/* education */
+.tit{
+    font-size: 30px;
+    /* font-weight: 600px; */
+}
+.title1{
+    margin-left: 180px;
+}
+.title2{
+    margin-left: 480px;
+}
+
+.bx{
+    width: 400px;
+    height: 150px;
+    border: 4px solid cadetblue;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 180px;
+    /* text-align: center; */
+}
+ /* animation */
+ .dot{
+    width: 10px;
+    height: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 50%;
+    background-color: cadetblue;
+ }
+ .child1{
+    position: relative;
+    margin: 60px;
+    margin-top: -510px;
+    
+ }
+ .child2{
+    position: relative;
+    margin: 60px;
+    margin-top: 180px;
+ }
+ .child3{
+    position: relative;
+    margin: 60px;
+    margin-top: 180px;
+ }
+ .child4{
+    position: relative;
+    margin: 60px;
+    margin-top: -460px;
+    margin-left: 700px;
+ } 
+ .child5{
+    position: relative;
+    margin: 60px;
+    margin-top: 180px;
+    margin-left: 700px;
+ } 
+ .child6{
+    position: relative;
+    margin: 60px;
+    margin-top: 180px;
+    margin-left: 700px;
+ } 
+.list1{
+    margin-top: 30px;
+}
+
+/* my skills */
+
+.title3 {
+    font-size: 30px;
+    margin: 130px;
+    
+}
+.title4{
+    font-size: 30px;
+    margin: 250px;
+}
+.x{
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 40px;
+    /* font-size: 13PX; */
+}
+.label{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.label1{
+    margin-left: 300px;
+}
+.label2{
+    margin-left: 315px;
+}
+.label3{
+    margin-left: 250px;
+}
+.label4{
+    margin-left: 280px;
+}
+.label5{
+    margin-left: 240px;
+}
+.label6{
+    margin-left: 208px;
+}
+.label7{
+    margin-left: 205px;
+}
+.label8{
+    margin-left: 240px;
+}
+.range{
+    border: 3px solid cadetblue;
+    border-radius: 5px;
+    width: 380px;
+    margin-left: 10px;
+    display: block;
+}
+.subrange{
+    width: 380px;
+}
+/* .range[type:in-range]{
+    color: blue;
+} */
+input[type='range']::-webkit-slider-runnable-track{
+    color: cadetblue;
+}
+
+/* contact me */
+.tbl{
+    text-align: center;
+    display: inline-block;
+   
+}
+.table{
+    text-align: center;
+    margin-top: 50px;
+}
+tr td{
+    padding: 10px;
+}
+.tbl2{
+    width: 300px;
+    height: 30px;
+    border: 2px solid cadetblue;
+}
+.tbl3{
+    width: 648px;
+    height: 180px;
+    border: 2px solid cadetblue
+}
+.s{
+    color: cadetblue;
+}
