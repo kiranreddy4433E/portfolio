@@ -6,7 +6,7 @@
     background-color: cadetblue;
     width: 100vw;
     height: 100px;
-    position: fixed;
+    /* position: fixed; */
 }
 .logo{
     position: relative;
@@ -18,8 +18,6 @@
     display: inline-block;
     width: 100px;
     height: 50px;
-    align-items: center;
-    justify-content: center;
     font-size: 30px;
     
 }
@@ -49,7 +47,7 @@
     background-color: azure;
     border: 2px solid black;
     border-radius: 10px;
-    outline: 5px dashed cadetblue;
+    /* outline: 5px dashed cadetblue; */
     margin: 170px 150px ;
     display: inline-block;
 }
@@ -126,17 +124,19 @@
 }
 .social{
     text-align: center;
+    
 }
 .icon{
     font-size: 50px;
     margin: 10px;
+    color: cadetblue;
 }
 /* up button */
 .goup{
-    text-align: end;
-    margin: 0 5% 0 90%;
-    display: inline-block;
-    position: sticky;
+    position: fixed;
+    display: block;
+    margin-top: -50px;
+    margin-left: 48vw;
 }
 .btn3{ 
     width: 70px;
@@ -190,6 +190,9 @@
 .tit{
     font-size: 30px;
     /* font-weight: 600px; */
+}
+.tit2{
+    display: none;
 }
 .title1{
     margin-left: 180px;
@@ -275,6 +278,9 @@
     margin-top: 40px;
     /* font-size: 13PX; */
 }
+.a1{
+    display: none;
+}
 .label{
     margin-top: 25px;
     margin-left: 10px;
@@ -346,4 +352,317 @@ tr td{
 }
 .s{
     color: cadetblue;
+}
+
+/* mediaquerrys */
+@media screen and (max-width:800px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Header */
+    .head {
+        background-color: cadetblue;
+        width: 100%;
+        height: 500px;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        padding: 0 20px;
+    }
+    
+    .logo {
+        font-size: 35px;
+        word-spacing: 0.5rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    /* .navbar {
+        display: flex;
+        justify-content: flex-end;
+    } */
+    
+    .list {
+        display: block;
+        list-style: none;
+    }
+
+    .list .child {
+        display: block;
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 30px;
+                
+    }
+    
+    .child {
+        /* margin-right: 1rem;
+        align-items: center;
+        justify-content: center; */
+        width: 800px;
+        height: 200px;
+    }
+    
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    
+    .link:hover {
+        color: red;
+    }
+    
+    .link:active {
+        color: green;
+    }
+    
+    /* Main Section */
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .photo {
+        flex: 1 1 300px;
+        max-width: 300px;
+        margin: 1rem;
+        background-color: azure;
+        border: 2px solid black;
+        border-radius: 10px;
+        /* outline: 5px dashed cadetblue; */
+    }
+    
+    .img {
+        /* width: 100%;
+        height: auto; */
+        flex: 1 1 300px;
+        max-width: 300px;
+    }
+    
+    .block {
+        flex: 1 1 300px;
+        max-width: 300px;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .inr1 {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    .inr3 {
+        font-size: 1.25rem;
+        letter-spacing: 0.05rem;
+        word-spacing: 0.5rem;
+    }
+    
+    .inr4 {
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        font-weight: 300;
+    }
+
+    .dot{
+        display: none;
+    }
+    .a1{
+        display: block;
+    }
+    .title3, .title4{
+        display: none;
+    }
+    .tit{
+        display: none;
+    }
+    .tit2{
+        display: block;
+        font-size: 30px;
+    }
+    
+    /* Buttons */
+    .btn {
+        /* margin: 1rem;*/
+        margin-left: -100px; 
+        /* padding: 0.5rem 1rem; */
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        background-color: cadetblue;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn1{
+        /* margin: 80px; */
+        width: 70px;
+        height: 45px;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px ;
+        background-color: cadetblue;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .btn2{
+        /* margin: 80px; */
+        margin-left: 50px;
+        width: 70px;
+        height: 45px;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px ;
+        background-color: cadetblue;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: red;
+        transform: scale(1.05);
+    }
+    
+    .btn:active {
+        background-color: green;
+        transform: scale(1.05);
+    }
+    .goup{
+        position: fixed;
+        display: block;
+        /* margin-top: -50px; */
+        /* margin-left: 48vw; */
+    }
+    
+    /* Social Icons */
+    .social {
+        text-align: center;
+        /* margin: 1rem 0; */
+        /* margin-top: 60px; */
+
+    }
+    
+    .icon {
+        font-size: 2rem;
+        margin: 0.5rem;
+        color: cadetblue;
+    }
+    
+    /* About Me Section */
+    .two {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 2rem 0;
+    }
+    
+    .logo2 {
+        background-color: azure;
+        margin: 1rem auto;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Education Section */
+    .tit {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    
+    .bx {
+        width: 100%;
+        max-width: 400px;
+        height: 180px;
+        border: 4px solid cadetblue;
+        border-radius: 5px;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+    
+    /* Skills Section */
+    .x {
+        border: 2px solid cadetblue;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+    
+    .label {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .label1{
+        margin-left: 260px;
+    }
+    .label2{
+        margin-left: 275px;
+    }
+    .label3{
+        margin-left: 205px;
+    }
+    .label4{
+        margin-left: 240px;
+    }
+    .label5{
+        margin-left: 200px;
+    }
+    .label6{
+        margin-left: 168px;
+    }
+    .label7{
+        margin-left: 165px;
+    }
+    .label8{
+        margin-left: 195px;
+    }
+    
+    .range {
+        width: 100%;
+    }
+    .subrange{
+        width: 100%;
+    }
+    
+    /* Contact Me Section */
+    .table {
+        text-align: center;
+        margin: 2rem auto;
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    tr td {
+        padding: 1rem;
+    }
+    
+    .tbl2, .tbl3 {
+        width: 100%;
+        padding: 0.5rem;
+        border: 2px solid cadetblue;
+    }
+    
+    .s {
+        color: cadetblue;
+    }
+    
 }
