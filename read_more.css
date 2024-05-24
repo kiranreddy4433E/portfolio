@@ -1,0 +1,44 @@
+body{
+    word-spacing: 6px;
+}
+
+.center{
+    text-align: center;
+    color: cadetblue;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    display: block;
+    position: relative;
+    border: 2px solid cadetblue;
+    border-radius: 6px;
+    background-color: cadetblue;
+    margin: 30px;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+}
+.btn:active{
+    background-color: green;
+}
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+@media screen and (max-width:800px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .btn{
+        width: 150px;
+        height: 40px;
+        border: 20x solid cadetblue;
+        border-radius: 5px;
+        margin-left: 2px;
+        
+    }
+}
